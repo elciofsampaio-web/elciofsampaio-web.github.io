@@ -1,6 +1,6 @@
 {
-  "versionName": "1.4.1",
-  "versionCode": 9,
+  "versionName": "1.4.2",
+  "versionCode": 10,
   "apkUrl": "https://elciofsampaio-web.github.io/app.apk",
-  "notes": "Botão SAIR visível na tela inicial.\nHistóricos de fichas e de checklists separados.\nVerificação de atualizações oficiais."
+  "notes": "Controle de troca de óleo no checklist da ambulância.\nItens Alinhamento e Balanceamento.\nDados já salvos são preservados."
 }
