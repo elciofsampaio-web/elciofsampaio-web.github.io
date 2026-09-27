@@ -11,32 +11,43 @@
     header { background: var(--navy); color:#fff; padding: 28px 20px 24px; }
     h1 { margin:0; font-size: 1.35rem; line-height:1.3; }
     .sub { opacity:.85; margin-top:8px; font-size:.95rem; }
-    main { padding: 24px 20px 48px; max-width: 480px; margin: 0 auto; }
+    main { padding: 24px 20px 48px; max-width: 520px; margin: 0 auto; display:flex; flex-direction:column; gap:16px; }
     .card { background:#fff; border-radius:16px; padding:22px; box-shadow: 0 8px 24px rgba(10,58,92,.08); }
     a.btn {
       display:block; text-align:center; background: var(--green); color:#fff;
-      text-decoration:none; font-weight:700; font-size:1.1rem; padding:16px;
-      border-radius:12px; margin: 8px 0 16px;
+      text-decoration:none; font-weight:700; font-size:1.05rem; padding:16px;
+      border-radius:12px; margin: 8px 0 12px;
     }
+    a.btn.navy { background: var(--navy); }
     ol { padding-left: 1.2rem; line-height: 1.55; }
     .warn { background:#FFF6E8; border-radius:12px; padding:12px 14px; font-size:.95rem; }
-    .ver { color:#567; font-size:.9rem; }
+    .ver { color:#567; font-size:.9rem; margin:0; }
+    h2 { margin:0 0 6px; font-size:1.15rem; }
   </style>
 </head>
 <body>
   <header>
     <h1>Transporte Sanitário – Goianésia</h1>
-    <p class="sub">Secretaria Municipal de Saúde</p>
+    <p class="sub">Dois aplicativos separados. Um link não instala o outro.</p>
   </header>
   <main>
     <div class="card">
-      <p class="ver">Versão 1.4.5 · APK Android</p>
-      <a class="btn" href="./app.apk" download="Transporte-Sanitario-Goianesia-v1.4.5.apk">Baixar aplicativo</a>
-      <p class="warn"><strong>Já tem o app instalado?</strong> Não desinstale. Abra o APK e confirme atualizar. Fichas e checklists continuam no celular.</p>
-      <h2 style="font-size:1rem;margin-top:20px">Como instalar</h2>
+      <h2>Transporte Sanitário – Condutores</h2>
+      <p class="ver">Versão 2.0.0 · uso dos condutores · ficha, checklists, plantão e mensagens</p>
+      <a class="btn" href="./app.apk" download="Transporte-Sanitario-Goianesia-v2.0.0.apk">Baixar aplicativo dos condutores</a>
+      <p class="warn"><strong>Quem já usa o aplicativo:</strong> não desinstale. Abra o arquivo e confirme atualizar. Fichas, checklists e PDFs continuam no celular.</p>
+    </div>
+    <div class="card">
+      <h2>Central Transporte e Frota – Mestre</h2>
+      <p class="ver">Versão 1.0.0 · somente Coordenação · não substitui o aplicativo dos condutores</p>
+      <a class="btn navy" href="./mestre/mestre.apk" download="Central-Transporte-Frota-Mestre-v1.0.0.apk">Baixar aplicativo Mestre</a>
+      <p class="warn">Instalar este arquivo não dá acesso. É preciso entrar com uma conta autorizada da Coordenação.</p>
+    </div>
+    <div class="card">
+      <h2 style="font-size:1rem">Como instalar</h2>
       <ol>
-        <li>Toque em <strong>Baixar aplicativo</strong>.</li>
-        <li>Abra o arquivo baixado.</li>
+        <li>Escolha o aplicativo certo.</li>
+        <li>Toque em baixar e abra o arquivo.</li>
         <li>Se o Android pedir, autorize instalar este aplicativo.</li>
         <li>Confirme <strong>Instalar</strong> ou <strong>Atualizar</strong>.</li>
       </ol>
